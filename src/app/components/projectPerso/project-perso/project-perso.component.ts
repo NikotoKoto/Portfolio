@@ -85,7 +85,7 @@ Elle est construite en Full Stack avec un frontend Angular et un backend Spring 
     },
     {
       title: 'Cocktails',
-      video: 'assets/video/video_AngularCocktail.mov',
+      video: 'assets/video/video_AngularCocktail.mp4',
       desc:`Cette application de cocktails, développée avec une API public, illustre l’utilisation d’une API en mode CRUD. Elle permet aux utilisateurs de parcourir les recettes, d’ajouter leurs cocktails favoris à un panier, et inclut également un espace administrateur dédié à la gestion des cocktails.`,
       href:'https://github.com/NikotoKoto/ProjectAngular.git',
       stack: [
@@ -108,7 +108,7 @@ L’application repose sur un frontend Angular et un backend Spring Boot exposan
     },
     {
       title: "CookChef",
-      video:'assets/video/video_CookChef.mov',
+      video:'assets/video/video_CookChef.mp4',
       desc:`CookChef est une application web conçue pour permettre aux amateurs de cuisine de découvrir, créer et gérer leurs recettes préférées. Les utilisateurs peuvent se connecter pour ajouter de nouvelles recettes, modifier, supprimer des recettes et conserver une liste de leurs plats préférés.`,
       stack:[
         {

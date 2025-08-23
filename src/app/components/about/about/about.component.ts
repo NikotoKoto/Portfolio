@@ -68,7 +68,7 @@ export class AboutComponent {
     {
       school: 'Lycée Gustave Monod',
       date: '2015 - 2017',
-      title: 'BTS Electrotechnique ',
+      title: 'BTS Electrotechnique option sécurité ferroviaire',
       mention:''
     }
   ];

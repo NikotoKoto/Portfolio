@@ -32,7 +32,7 @@ import { CommonModule } from '@angular/common';
                 <video 
                   [src]="project.video" 
                   controls 
-                  class="w-full h-56 rounded-lg shadow-md mb-4">
+                  class="w-full h-56 rounded-lg shadow-md mb-4 object-cover">
                 </video>
               </div>
 
@@ -85,7 +85,7 @@ Elle est construite en Full Stack avec un frontend Angular et un backend Spring 
     },
     {
       title: 'Cocktails',
-      video: 'assets/video/',
+      video: 'assets/video/video_AngularCocktail.mov',
       desc:`Cette application de cocktails, développée avec une API public, illustre l’utilisation d’une API en mode CRUD. Elle permet aux utilisateurs de parcourir les recettes, d’ajouter leurs cocktails favoris à un panier, et inclut également un espace administrateur dédié à la gestion des cocktails.`,
       href:'https://github.com/NikotoKoto/ProjectAngular.git',
       stack: [
@@ -95,7 +95,7 @@ Elle est construite en Full Stack avec un frontend Angular et un backend Spring 
     },
     {
       title:"TodoList Fullstack",
-      video:'assets/video/',
+      video:'assets/video/video_TodolistFullStack.mov',
       desc:`Ce projet est une application Full Stack de gestion de tâches (TodoList). Elle permet de créer, afficher, modifier et supprimer des tâches.
 L’application repose sur un frontend Angular et un backend Spring Boot exposant une API REST, avec une base de données PostgreSQL pour stocker les données.`,
      href:'https://github.com/NikotoKoto/TodoList-Fullstack.git',
@@ -108,7 +108,7 @@ L’application repose sur un frontend Angular et un backend Spring Boot exposan
     },
     {
       title: "CookChef",
-      video:'',
+      video:'assets/video/video_CookChef.mov',
       desc:`CookChef est une application web conçue pour permettre aux amateurs de cuisine de découvrir, créer et gérer leurs recettes préférées. Les utilisateurs peuvent se connecter pour ajouter de nouvelles recettes, modifier, supprimer des recettes et conserver une liste de leurs plats préférés.`,
       stack:[
         {

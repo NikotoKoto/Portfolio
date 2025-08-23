@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
      <section id="projectsPro" class=" bg-gradient-to-tl from-white via-gray-600 to-gray-900 text-black py-20 px-6 flex justify-center">
       <div class="max-w-6xl w-full">
-        <h2 class="text-6xl uppercase font-bold font-bodoni text-center mb-16 text-white">Projets Professionnels</h2>
+        <h2 class="text-6xl sm:text-4xl uppercase font-bold font-bodoni text-center mb-16 text-white">Projets Professionnels</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
           @for (project of projects; track $index) {

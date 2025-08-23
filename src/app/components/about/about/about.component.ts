@@ -8,7 +8,7 @@ import { NgFor } from '@angular/common';
   template: `
     <section id="about" class="min-h-screen bg-gradient-to-bl from-white via-gray-600 to-gray-900  py-20 px-6 flex justify-center">
       <div class="max-w-5xl w-full">
-        <h2 class="text-6xl uppercase font-bold font-bodoni text-center mb-16 text-white">Mon parcours scolaire</h2>
+        <h2 class="text-6xl sm:text-4xl uppercase font-bold font-bodoni text-center mb-16 text-white">Mon parcours scolaire</h2>
 
         <div class="relative before:content-[''] before:absolute before:top-0 before:left-1/2 before:h-full before:w-1 before:bg-gray-400">
           

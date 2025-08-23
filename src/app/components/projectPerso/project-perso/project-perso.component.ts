@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
       class="bg-gradient-to-bl from-white via-gray-600 to-gray-900 text-black py-20 px-6 flex justify-center"
     >
       <div class="max-w-6xl w-full">
-        <h2 class="text-6xl uppercase font-bold font-bodoni text-center mb-16 text-white">
+        <h2 class="text-6xl sm:text-4xl uppercase font-bold font-bodoni text-center mb-16 text-white">
           Projets Personnels
         </h2>
 

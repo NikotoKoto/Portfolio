@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   template: `
     <div
-      class="relative min-h-screen bg-gradient-to-tl from-white via-gray-600 to-gray-900 px-4 py-10 flex flex-col items-center justify-center text-white"
+      class="relative min-h-screen px-4 py-10 flex flex-col items-center justify-center text-white"
     >
     <div
         class="absolute top-4 left-0 right-0 flex flex-wrap justify-center gap-4 sm:gap-8 text-lg sm:text-xl px-4"
@@ -22,7 +22,6 @@ import { Component } from '@angular/core';
         }
       </div>
 
-      <!-- Titre -->
       <h1
         class="mt-16 sm:mt-20 text-4xl sm:text-6xl md:text-8xl font-bold uppercase tracking-wide text-center drop-shadow mb-10 font-bodoni"
       >
@@ -47,11 +46,14 @@ import { Component } from '@angular/core';
             <strong>AngularJS / Java</strong>, dans un environnement dynamique
             où je pourrai mettre à profit mes compétences et continuer à
             apprendre auprès d’une équipe expérimentée. <br /><br />
-            Passionné par les <strong>sports de combat</strong> 🥋, la
-            <strong>musculation</strong> 🏋️‍♂️, je cultive rigueur, discipline et
-            persévérance — des qualités que je mets aussi au service de ma
-            carrière.
+            
           </p>
+          <ul>
+            @for(icone of icones; track $index){
+              <li class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{{icone.name}}</li>
+
+            }
+          </ul>
         </div>
 
         <ul
@@ -127,4 +129,29 @@ export class HeaderComponent {
       filename: 'Lettre_Motivation_Nicolas_Floris.pdf',
     },
   ];
+  icones = [
+    {
+      name: 'Angular', 
+    }
+    ,{
+      name:'SpringBoot',
+    },
+    {
+      name: 'Java',
+    },{
+      name:'PostgreSQL',
+    },
+    {
+      name: 'Docker'
+    },
+    {
+      name:'Git'
+    },
+    {
+      name:'Jira'
+    },
+    {
+      name:'SCRUM'
+    }
+  ]
 }

@@ -10,12 +10,15 @@ import { ProjectPersoComponent } from "./components/projectPerso/project-perso/p
   selector: 'app-root',
   imports: [HeaderComponent, FooterComponent, AboutComponent, ProjectProComponent, ProjectPersoComponent],
   template: `
-<app-header/>
-<app-about/>
-<app-project-pro/>
-<app-project-perso id="projectPerso"/>
-  <app-footer/>`,
-  styles: ``
+<div class="bg-gradient-to-tl from-white via-gray-600 to-gray-900">
+  <app-header/>
+  <app-about/>
+  <app-project-pro/>
+  <app-project-perso id="projectPerso"/>
+    <app-footer/>
+</div>`,
+  styles: `
+  `
 })
 export class AppComponent {
   title = 'Portfolio';

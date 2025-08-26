@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-project-pro',
   imports: [],
   template: `
-     <section id="projectsPro" class=" bg-gradient-to-tl from-white via-gray-600 to-gray-900 text-black py-20 px-6 flex justify-center">
+     <section id="projectsPro" class=" text-black py-20 px-6 flex justify-center">
       <div class="max-w-6xl w-full">
         <h2 class="text-6xl sm:text-4xl uppercase font-bold font-bodoni text-center mb-16 text-white">Projets Professionnels</h2>
 
@@ -24,7 +24,8 @@ import { Component } from '@angular/core';
       </div>
     </section>
   `,
-  styles: ``
+  styles: `
+  `
 })
 export class ProjectProComponent {
   projects = [

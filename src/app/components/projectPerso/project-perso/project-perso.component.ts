@@ -71,7 +71,7 @@ export class ProjectPersoComponent {
   projects = [
     {
       title: 'Mini CRM',
-      video: 'assets/videos/demo-crm.mp4',
+      video: 'assets/video/video_CrmPro.mp4',
       desc: `Cette application est un CRM permettant à chaque utilisateur de gérer ses contacts et ses commandes de manière sécurisée.
 Elle est construite en Full Stack avec un frontend Angular et un backend Spring Boot, communiquant via une API REST sécurisée par JWT stocké dans des cookies.`,
       href: 'https://github.com/NikotoKoto/CrmPro.git',

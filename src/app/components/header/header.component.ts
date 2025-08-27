@@ -38,10 +38,10 @@ import { Component } from '@angular/core';
             class="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-full border-4 border-white shadow-md mb-6"
           />
           <p class="text-lg leading-relaxed text-justify">
-            Je m'appelle <strong>Nicolas Floris</strong>, j'ai 29 ans.
+            Je m'appelle Nicolas Floris, j'ai 29 ans.
             Fraîchement diplômé d’un
             <strong>Master Développeur Manager Full Stack</strong> à
-            l'<strong>EFREI</strong>, je suis à la recherche de ma première
+            l'<strong>EFREI</strong>, je suis à la recherche d'une
             opportunité en tant que développeur full stack junior
             <strong>AngularJS / Java</strong>, dans un environnement dynamique
             où je pourrai mettre à profit mes compétences et continuer à

@@ -95,7 +95,7 @@ Elle est construite en Full Stack avec un frontend Angular et un backend Spring 
     },
     {
       title:"TodoList Fullstack",
-      video:'assets/video/video_TodolistFullStack.mov',
+      video:'assets/video/video_TodolistFullStack.mp4',
       desc:`Ce projet est une application Full Stack de gestion de tâches (TodoList). Elle permet de créer, afficher, modifier et supprimer des tâches.
 L’application repose sur un frontend Angular et un backend Spring Boot exposant une API REST, avec une base de données PostgreSQL pour stocker les données.`,
      href:'https://github.com/NikotoKoto/TodoList-Fullstack.git',
